@@ -31,7 +31,7 @@
   .btn{
     width: 20%;
     padding: 10px;
-    background: linear-gradient(-135deg, #1dcdec,#e2e0dc);
+    background: linear-gradient(-135deg, #1f81f1, #e2e0dc);
     color: rgb(255, 250, 250);
     border: 2px;
     cursor: pointer;
@@ -86,5 +86,12 @@
     outline: none;
     font: bold;
     margin-left: 10px;
-
+}
+#SignUp input[type="radio"]{
+  margin-right: 15px;
+  width: 20px;
+  font: bold;
+}
+#SignUp label{
+  margin-right: 6px;
 }
