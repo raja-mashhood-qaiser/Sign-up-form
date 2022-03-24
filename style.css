@@ -42,9 +42,9 @@
     height: 50px;
     font:bold;
   }
-  .btn :hover{
+  .btn:hover{
     transform: scale(0.99);
-    background: linear-gradient(-135deg, #e2e0dc,#1dcdec);
+    background: linear-gradient(-135deg, #e2e0dc,#1f81f1);
   }
   #SignUp input[type="First name"],#SignUp input[type="Last name"] {
     padding: 15px 8px;
@@ -94,4 +94,7 @@
 }
 #SignUp label{
   margin-right: 6px;
+}
+#SignUp span{
+  text-align: left;
 }
